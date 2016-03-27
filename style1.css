@@ -110,8 +110,12 @@ h2, ul {
 }
 
 #header {
-	wight: 100%;
 	border-top: 3px solid #7da5d8;
+}
+
+#header {
+	width: 100%;
+	
 }
 
 .feature {
