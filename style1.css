@@ -89,15 +89,21 @@ h2, ul {
 }
 
 
-
+/*
+Этот раздел определяет размещение элементов на странице. Здесь использовано абсолютное
+ позиционирование - координаты x и y контента заданы относительно левого верхнего угла
+ браузера.
+*/
 
 #navigation, #bodycontent, #header {
 	position: absolute;
 }
 
 #navigation, #bodycontent {
-	top: 107px;	
+	top: 6.54em;	
 }
+
+
 
 #bodycontent {
 	left: 220px;
@@ -106,4 +112,9 @@ h2, ul {
 #header {
 	wight: 100%;
 	border-top: 3px solid #7da5d8;
+}
+
+.feature {
+	float: right;
+	margin: 10px;
 }
