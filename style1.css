@@ -44,6 +44,7 @@ h2 {
 
 li {
 	font-size: small;
+	list-style-type: none;
 }
 
 
@@ -121,4 +122,8 @@ h2, ul {
 .feature {
 	float: right;
 	margin: 10px;
+}
+
+img {
+	border: 15px solid white;
 }
