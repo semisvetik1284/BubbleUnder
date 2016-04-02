@@ -11,6 +11,7 @@ CSS для сайта Bubble Under
 	padding-bottom: .2em;
 	padding-left: .8em;
 	margin:0;
+	background: #bed8f3 url(gallery/tagline-fade.jpg) repeat-y right;
 }
 
 body {
@@ -33,6 +34,7 @@ h1 {
 	padding-bottom: .2em;
 	padding-left: .4em;
 	margin: 0;
+	background: navy url(gallery/header-bg.jpg) repeat-y right;
 	}
 	
 h2 {
@@ -101,8 +103,15 @@ h2, ul {
 }
 
 #navigation, #bodycontent {
-	top: 6.54em;	
+	top: 6.54em;
+		
 }
+
+#navigation {
+	width: 180px;
+	height: 484px;
+	background: #7da5d8 url(gallery/nav-bg.jpg)
+	}
 
 
 
@@ -124,6 +133,25 @@ h2, ul {
 	margin: 10px;
 }
 
-img {
+
+.galleryphoto p {
+	font-size: 65%;
+	font-weight: bold;
+	margin-top: 0;
+	width: 430px;
+	line-height: 1.4em;
+}
+
+.galleryphoto img {
 	border: 15px solid white;
+}
+
+.galleryphoto {
+	padding-bottom: 20px;
+	border-bottom: 1px solid navy;
+	margin-bottom:10px;
+}
+.photocredit {
+	font-weight: normal;
+	color: gray;
 }
