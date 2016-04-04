@@ -16,7 +16,7 @@ CSS для сайта Bubble Under
 
 body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	background-color: #B0E0E6;
+	background-color: #e2edff; /*#B0E0E6;*/
 	line-height: 125%;
 	padding: 0;
 	margin: 0;
@@ -154,4 +154,38 @@ h2, ul {
 .photocredit {
 	font-weight: normal;
 	color: gray;
+}
+
+table.events {
+	border-collapse: collapse;
+}
+
+table.events th, table.events td  {
+	padding: 4px;
+	border: 1px solid #000066;
+	
+}
+
+table.events th {
+	font-size: x-small;
+	text-align: left;
+	background: #241374 url(gallery/header-bg.jpg);
+	color: #ffffff;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+table.events td {
+	font-size: small;
+	background: #e2edff url(gallery/td.jpg) repeat-x top;
+}
+
+table.events caption {
+	color: #000066;
+	font-size: small;
+	text-align: left;
+	padding-bottom: 5px;
+	font-weight: bold;
 }
