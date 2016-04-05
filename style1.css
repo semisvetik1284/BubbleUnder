@@ -16,7 +16,7 @@ CSS для сайта Bubble Under
 
 body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	background-color: #e2edff; /*#B0E0E6;*/
+	background-color: #e2edff; 
 	line-height: 125%;
 	padding: 0;
 	margin: 0;
@@ -188,4 +188,35 @@ table.events caption {
 	text-align: left;
 	padding-bottom: 5px;
 	font-weight: bold;
+}
+
+form.contact {
+	padding:0;
+	margin:0;
+	margin-top:-15px;
+	line-height:150%;
+}
+
+form.contact fieldset {
+	border: 2px solid navy;
+	padding: 10px;
+}
+
+form.contact legend {
+	font-weight: bold;
+	font-size: small;
+	color: navy;
+	padding: 5px;
+}
+
+form.contact label{
+	font-weight: bold;
+	font-size: small;
+	color: blue;
+}
+
+form.contact label.fixedwidth {
+	display: block;
+	width: 240px;
+	float: left;
 }
