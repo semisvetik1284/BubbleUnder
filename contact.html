@@ -32,25 +32,85 @@
 					<fieldset>
 						<legend>Расскажи нам о дайвинг-мероприятии</legend>
 						<div>
-							<label for="contactname">Имя</label>
+							<label for="contactname" class="fixedwidth">Имя</label>
 							<input type="text" name="contactname" id="contactname"/>
 						</div>
 						<div>
-							<label for="telephone">Номер телефона</label>
+							<label for="telephone" class="fixedwidth">Номер телефона</label>
 							<input type="text" name="telephone" id="telephone"/>
 						</div>
 						<div>
-							<label for=" email">Адрес электронной почты</label>
+							<label for=" email" class="fixedwidth">Адрес электронной почты</label>
 							<input type="text" name="email" id="email"/>
 						</div>
 						<div>
-							<label for="eventname">Названия мероприятий</label>
+							<label for="eventname" class="fixedwidth">Названия мероприятий</label>
 							<input type="text" name="eventname" id="eventname"/>
 						</div>
 						<div>
-							<label for="eventdate">Дата мероприятий</label>
+							<label for="eventdate" class="fixedwidth">Дата мероприятий</label>
 							<input type="text" name="eventdate" id="eventdate"/>
 						</div>
+						<div>
+							<label for="region" class="fixedwidth">В каком регионе будет
+								мероприятие?</label>
+							<select name="region" id="region">
+								<option>Юго-запад</option>
+								<option>Юго-восток</option>
+								<option>Мидлентс</option>
+								<option>Центральный регион</option>
+								<option>Лондон</option>
+								<option>Восток</option>
+								<option>Север</option>
+								<option>Шотландия</option>
+								<option>Северная Ирландия</option>
+								<option>Уэльс</option>
+								<option>Другая страна (детали см. ниже)</option>
+							</select>
+						</div>
+						<div>
+							<p>Здесь можно добавить любые дополнительные детали (введите их
+							в текстовую область ввода ниже). Укажите их, чтобы избежать 
+							дополнительных звонков или писем с уточнениями, а также любых
+							накладок.</p>
+							<label for="details" class="fixedwidth">Больше деталей (указывайте
+								столько, сколько нужно!)</label>
+							<textarea id="details" name="details" cols="30"
+								rol="7"></textarea>
+						</div>
+						<div>
+							<p>Мы можем позвонить вам для уточнения информации. Какое время для звонка
+								вы предпочитаете?</p>
+							<input type="radio" name="timetocall" id="morning"
+								value="morning"/> 
+							<label for="morning">Утром</label>
+							<br/>
+							<input type="radio" name="timetocall" id="afternoon"
+								value="afternoon"/> 
+							<label for="afternoon">Днем</label>
+							<br/>
+							<input type="radio" name="timetocall" id="evening"
+								value="evening"/> 
+							<label for="evening">Вечером</label>
+							<br/>
+							<input type="radio" name="timetocall" id="never"
+								value="never"/> 
+							<label for="never">Не звоните мне, пожалуйста</label>
+						</div>
+						<div>
+							<p>Bubble Under может поделиться вашей информацией с другими
+								заинтересованными лицами или сайтами для рекламы мероприятия.
+								Подтвердите, что вы согласны с этим.</p>
+							<input type="checkbox" name="publicize" id="publicize"
+								checked="checked"/>
+							<label for="publicize">Я согласен на публикование информации о событии
+								за пределами Bubble Under, если это необходимо.</label>
+						</div>
+						<div class="buttonarea">
+							<input type="submit" value="Отправить информацию"/>
+						
+						</div>
+						
 					</fieldset>
 				</form>
 			<p>Если вам нужно срочно связаться с нами, звоните Бобу Добалина

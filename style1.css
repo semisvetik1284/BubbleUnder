@@ -220,3 +220,17 @@ form.contact label.fixedwidth {
 	width: 240px;
 	float: left;
 }
+
+form.contact .buttonarea input {
+	background: navy;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+form.contact .buttonarea {
+	text-align: center;
+	padding: 4px;
+	background-color: #0066ff;
+}
