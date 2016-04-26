@@ -3,18 +3,22 @@
 	<head>
 		<title>Свяжитесь с нами через Bubble Under</title>
 		<meta charset="UTF-8"/>
+		<!--[если это Internet Explorer 9]>
+			<script src="http://html://html5shim.googlecode.com/svn/trunk/
+			html5.js"></script>
+		<![endif]-->
 		<link href="style1.css" rel="stylesheet" type="text/css" />
 	</head>	
 	<body>
-		<div id="header">
+		<header>
 			<div id="sitebranding">
 				<h1>BubbleUnder.com</h1>
 			</div>
 			<div id="tagline">
 				<p>Дайвинг клуб на юго-западе Великобритании - сделай плюх с нами!</p>
 			</div>
-		</div> <!-- Окончание раздела header -->
-		<div id= "navigation">
+		</header>
+		<nav>
 			<ul>
 				<li><a href="index.html">Главная страница</a></li>
 				<li><a href="about.html">О нас</a></li>
@@ -22,7 +26,7 @@
 				<li><a href="contact.html">Свяжитесь с нами</a></li>
 				<li><a href="gallery.html">Фотогалерея</a></li>
 			</ul>	
-		</div> <!--Окончание раздела нnavigation -->
+		</nav>
 		<div id="bodycontent">
 			
 			<h2>Подводные фотографии</h2>
@@ -30,15 +34,18 @@
 			    членами клуба на пленочную и цифровую фотокамеру.</p>
 			<p>Если вы хотите добавить сюда свое фото
 				<a href="mailto:bob@bubbleunder.com">напишите мне</a>(Боб).</p> 
-			<div class="galleryphoto">
+			<figure>
 				<img src="gallery/turtle-bite.jpg" width="400" height="258" 
 				alt="Черепаха отлично чувствует себя среди кораллов, 
 				несмотря на старую травму отзубов акулы"/>
-					<p>Эта черепаха довольно грациозно плавала у Большого Барьерного
+				<figcaption>Эта черепаха довольно грациозно плавала у Большого Барьерного
 					Рифа (Квинсленд, Австралия), несмотря на отсутствующий с 
 					правой стороны фрагмент панциря, предположительно после атаки
-					акулы.<span class="photocredit">[Фотограф: Йен Ллойд]</span></p>
-			</div>  
+					акулы.<span class="photocredit">[Фотограф: Йен Ллойд]</span></figcaption>
+			</figure>  
 		</div> <!-- Окончание раздела bodycontent -->		 
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js">
+		</script>
+		<script type="text/javascript" src="js/common.js"></script>	 
 	</body>
 </html>

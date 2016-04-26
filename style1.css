@@ -82,7 +82,7 @@ a:active {
 	letter-spacing: 0.05em;
 }
 
-#navigation {
+nav {
 	width: 180px;
 	background-color: #7da5d8;
 }
@@ -98,32 +98,44 @@ h2, ul {
  браузера.
 */
 
-#navigation, #bodycontent, #header {
+nav, #bodycontent, header {
 	position: absolute;
 }
 
-#navigation, #bodycontent {
+nav, #bodycontent {
 	top: 6.54em;
 		
 }
 
-#navigation {
+nav {
 	width: 180px;
 	height: 484px;
 	background: #7da5d8 url(gallery/nav-bg.jpg)
 	}
+nav a{
+	text-shadow:1px 1px 2px white, -1px -1px 2px white;
+	text-decoretion:none;
+}
 
+nav a:hover, nav a:focus {
+	text-shadow:none;
+}
+/*nav ul {
+	margin:0;
+	padding-top:15px;
+	}
+*/
 
 
 #bodycontent {
 	left: 220px;
 }
 
-#header {
+header {
 	border-top: 3px solid #7da5d8;
 }
 
-#header {
+header {
 	width: 100%;
 	
 }
@@ -133,24 +145,35 @@ h2, ul {
 	margin: 10px;
 }
 
+figure {
+	display:block;
+	padding-bottom: 10px;
+	border-bottom:1px solid navy;
+	margin-bottom: 20px;
+	}
 
-.galleryphoto p {
-	font-size: 65%;
-	font-weight: bold;
+figcaption {
+	display:block;
+	font-size:65%;
+	font-weight:bold;
 	margin-top: 0;
-	width: 430px;
-	line-height: 1.4em;
+	width:430px;
+	line-height:1.4em;
 }
 
-.galleryphoto img {
+figcaption span {
+	font-weight:normal;
+	color:gray;
+}
+
+figure img {
 	border: 15px solid white;
-}
-
-.galleryphoto {
-	padding-bottom: 20px;
-	border-bottom: 1px solid navy;
+	border-radius:10px;
+	box-shadow:10px 10px 20px black;
 	margin-bottom:10px;
 }
+
+
 .photocredit {
 	font-weight: normal;
 	color: gray;
@@ -233,4 +256,25 @@ form.contact .buttonarea {
 	text-align: center;
 	padding: 4px;
 	background-color: #0066ff;
+}
+
+aside {
+	display: block;
+	float:right;
+	margin:10px;
+	padding:10px;
+	width:30%;
+	background:white;
+	font-style:italic;
+	color:gray;
+	border:2px solid gray;	
+	border-radius:5px;
+}
+
+aside blockquote {
+	font-size:1.2em;
+	line-height:1.4;
+	margin:0 0 0.5em 0;
+	font-style:normal;
+	color:#006;
 }
