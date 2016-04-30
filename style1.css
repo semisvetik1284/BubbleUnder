@@ -16,7 +16,7 @@ CSS для сайта Bubble Under
 
 body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	background-color: #e2edff; 
+	background-color: LightSteelBlue; 
 	line-height: 125%;
 	padding: 0;
 	margin: 0;
@@ -143,6 +143,8 @@ header {
 .feature {
 	float: right;
 	margin: 10px;
+	border-radius:10px;
+	border: 1px solid navy;
 }
 
 figure {
@@ -217,7 +219,7 @@ form.contact {
 	padding:0;
 	margin:0;
 	margin-top:-15px;
-	line-height:150%;
+	line-height:100%;
 }
 
 form.contact fieldset {
